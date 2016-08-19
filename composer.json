@@ -1,0 +1,21 @@
+{
+  "name": "marando/process",
+  "description": "A PHP process managing package",
+  "require-dev": {
+    "phpunit/phpunit": "^5.5",
+    "symfony/var-dumper": "*"
+  },
+  "license": "GNU3",
+  "authors": [
+    {
+      "name": "Ashley Marando",
+      "email": "a.marando@me.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-0": {
+      "Marando": "src/"
+    }
+  }
+}

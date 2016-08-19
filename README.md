@@ -61,7 +61,7 @@ $proc->wait();
 ```
 
 ### Process Output
-You can also get the output of the process by accessing the log property, which will return a PHP `SplFileObject` instance that contains the output of the process. To enable this behavior you must first pass the path of the desired output file to the constructor:
+You can also get the output of the process from the `log` property, which will return a PHP `SplFileObject` instance that contains the output of the process. To enable this behavior you must first pass the path of the desired output file to the constructor:
 ```php
 $proc = new Process('ping google.com', 'logfile.log');
 $proc->start();

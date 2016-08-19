@@ -28,7 +28,6 @@ use SplFileObject;
  * @property SplFileObject $log     File with output of the process
  * @property string        $command Process command
  * @property string        $pid     Process PID
- * @property int           $runtime Seconds process took to run
  */
 class Process
 {

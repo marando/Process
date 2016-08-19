@@ -1,6 +1,6 @@
 {
   "name": "marando/process",
-  "description": "A PHP process managing package",
+  "description": "A PHP package for managing external executable processes.",
   "require-dev": {
     "phpunit/phpunit": "^5.5",
     "symfony/var-dumper": "*"
